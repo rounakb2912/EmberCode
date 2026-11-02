@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0c0f" />
+  <meta name="description" content="EmberCode builds thoughtful digital products, intelligent software, and scalable technology for ambitious businesses." />
+  <title>EmberCode — Technology, crafted with intent.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="EmberCode home">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>ember<span class="brand-light">code</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#showreel">Showreel</a>
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#insights">Approach</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT DIGITAL STUDIO <span class="eyebrow-dot"></span> EST. 2024</div>
+          <h1>Technology,<br><em>crafted</em> with intent.</h1>
+          <p class="hero-lede">We turn complex ideas into clear, capable digital experiences. Software, strategy and design—built to move your business forward.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a project <span>↗</span></a>
+            <a class="text-link" href="#work">Explore our work <span>↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-avatars" aria-hidden="true"><span>E</span><span>C</span><span>+</span></div>
+            <p><strong>Small team. Serious capability.</strong><br><span>Built around your next big move.</span></p>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Abstract EmberCode digital artwork">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-core"><div class="core-inner"><span class="core-symbol">e</span><span class="core-caption">IDEAS IN MOTION</span></div></div>
+          <div class="art-label label-top"><span class="status-dot"></span> SYSTEMS ONLINE</div>
+          <div class="art-label label-bottom">BUILD / REFINE / REPEAT <span>✳</span></div>
+          <div class="art-cross cross-one">+</div><div class="art-cross cross-two">+</div>
+          <div class="art-coordinate">28° 37' N<br>77° 22' E</div>
+        </div>
+      </div>
+      <div class="container hero-bottom">
+        <span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 04</span>
+      </div>
+    </section>
+
+
+    <section class="showreel section-pad" id="showreel">
+      <div class="container">
+        <div class="showreel-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> THE EMBERCODE FILM</div>
+            <h2>Ideas in motion.<br><em>Built to move you.</em></h2>
+          </div>
+          <p>A cinematic look at the energy behind the work. Replace the demo footage with your own brand film when it’s ready.</p>
+        </div>
+        <div class="video-frame reveal">
+          <video class="showreel-video" id="showreel-video" muted loop playsinline preload="metadata" poster="assets/showreel-poster.jpg" aria-label="EmberCode brand showreel" controls>
+            <source src="assets/embercode-showreel.mp4" type="video/mp4">
+          </video>
+          <div class="video-fallback" aria-hidden="true">
+            <div class="video-grid-lines"></div>
+            <div class="video-sphere"></div>
+            <div class="video-sweep"></div>
+            <span class="video-fallback-label">EMBERS IN MOTION / 001</span>
+          </div>
+          <div class="video-overlay">
+            <span class="video-kicker"><i></i> BRAND SHOWREEL</span>
+            <button class="video-play" id="video-play" type="button" aria-label="Play showreel" aria-pressed="false"><span class="play-icon">▶</span><span class="pause-icon">Ⅱ</span></button>
+            <div class="video-caption"><strong>Make something<br><em>meaningful.</em></strong><span>STRATEGY · DESIGN · ENGINEERING</span></div>
+            <span class="video-duration">3:33<b>—</b> EMBERCODE STUDIO</span>
+          </div>
+          <div class="video-controls">
+            <input type="range" id="video-seek" class="video-seek" min="0" max="100" value="0" step="0.1" aria-label="Seek video progress">
+            <div class="video-time"><span id="video-current">0:00</span><span id="video-total">3:33</span></div>
+          <div class="video-progress"><span id="video-progress"></span></div>
+        </div>
+        <div class="showreel-foot"><span>CREATIVE TECHNOLOGY / DIGITAL CRAFT</span><span>DESIGNED FOR WHAT’S NEXT <i>✳</i></span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>BUILT FOR TEAMS THAT THINK AHEAD</span>
+        <div class="trust-items"><b>PRODUCT</b><i></i><b>ENGINEERING</b><i></i><b>INTELLIGENCE</b><i></i><b>EXPERIENCE</b></div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> WHAT WE DO</div><h2>Good technology<br>is <em>felt</em>, not flaunted.</h2></div>
+          <p>From first sketch to final deployment, we bring the right people and technology together to solve meaningful problems.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="service-top"><span>01 / DIGITAL PRODUCTS</span><span class="service-icon">↗</span></div><div class="line-icon icon-window"><i></i><i></i><i></i></div><h3>Websites & platforms</h3><p>Distinctive websites and robust web applications that make every interaction count.</p><a href="#contact" class="card-link">Explore service <span>↗</span></a></article>
+          <article class="service-card reveal"><div class="service-top"><span>02 / SOFTWARE</span><span class="service-icon">↗</span></div><div class="line-icon icon-brackets">&lt; / &gt;</div><h3>Custom engineering</h3><p>Purpose-built software, APIs and integrations designed around how your business works.</p><a href="#contact" class="card-link">Explore service <span>↗</span></a></article>
+          <article class="service-card reveal"><div class="service-top"><span>03 / INTELLIGENCE</span><span class="service-icon">↗</span></div><div class="line-icon icon-ai"><span>✳</span></div><h3>AI & automation</h3><p>Practical intelligent systems that reduce friction and unlock better decisions.</p><a href="#contact" class="card-link">Explore service <span>↗</span></a></article>
+          <article class="service-card reveal"><div class="service-top"><span>04 / PRODUCT THINKING</span><span class="service-icon">↗</span></div><div class="line-icon icon-target"><span></span></div><h3>Strategy & design</h3><p>Clear product direction and considered UX/UI that connect user needs to business goals.</p><a href="#contact" class="card-link">Explore service <span>↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="container">
+        <div class="section-heading work-heading reveal">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> SELECTED CONCEPTS</div><h2>Made to make<br>a <em>difference.</em></h2></div>
+          <p>A glimpse at the kind of digital experiences we love to create. These are illustrative concept projects, not client case studies.</p>
+        </div>
+        <div class="project-list">
+          <article class="project project-one reveal"><div class="project-visual visual-fin"><div class="visual-top">NORTHSTAR / FINANCE</div><div class="fin-ui"><div class="fin-title">Your money,<br><em>in perspective.</em></div><div class="fin-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="fin-number">₹ 8,42,650 <small>+12.8%</small></div></div></div><div class="project-info"><div class="project-meta">01 — FINTECH / PRODUCT DESIGN</div><h3>Northstar</h3><p>A calmer way to understand the numbers that matter.</p><div class="tag-row"><span>Product strategy</span><span>UI/UX</span><span>Dashboard</span></div></div></article>
+          <article class="project project-two reveal"><div class="project-visual visual-arc"><div class="visual-top">ARC / CLIMATE TECH</div><div class="arc-glow"></div><div class="arc-word">A better<br><i>current.</i></div><div class="arc-stat"><b>01</b><span>ENERGY, REIMAGINED</span></div></div><div class="project-info"><div class="project-meta">02 — CLIMATE / WEB EXPERIENCE</div><h3>Arc Energy</h3><p>Making a complex transition feel tangible and human.</p><div class="tag-row"><span>Web design</span><span>Development</span><span>Storytelling</span></div></div></article>
+          <article class="project project-three reveal"><div class="project-visual visual-orbit"><div class="visual-top">ORBIT / OPERATIONS</div><div class="orbit-dashboard"><div class="orbit-side">◉<br>⌘<br>▤<br>◇</div><div class="orbit-main"><small>OVERVIEW / MONDAY</small><h4>Everything<br>in its orbit.</h4><div class="orbit-bars"><i></i><i></i><i></i></div><div class="orbit-circles"><b>84%</b><b>62%</b><b>91%</b></div></div></div></div><div class="project-info"><div class="project-meta">03 — SAAS / CUSTOM SOFTWARE</div><h3>Orbit Workspace</h3><p>Bringing scattered workflows into one focused space.</p><div class="tag-row"><span>Custom software</span><span>UX systems</span><span>Automation</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad" id="about">
+      <div class="container manifesto-grid">
+        <div class="manifesto-mark reveal"><div class="big-mark"><span></span><span></span><span></span></div><span class="mark-caption">THE EMBERCODE<br>PRINCIPLE / 001</span></div>
+        <div class="manifesto-copy reveal"><div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT US</div><h2>Less noise.<br>More <em>meaning.</em></h2><p class="manifesto-lede">We believe the best digital work doesn't need to shout. It needs to work beautifully, solve the right problem and leave people better off.</p><p>EmberCode is an independent technology studio built on curiosity, craft and clear thinking. We partner closely with ambitious teams to shape ideas, build dependable systems and make technology feel a little more human.</p><a href="#contact" class="text-link">Get to know us <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="insights">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span> HOW WE WORK</div><h2>Clarity at every<br><em>step.</em></h2></div><p>Good outcomes come from a thoughtful process. No mystery, no unnecessary complexity—just focused collaboration.</p></div>
+        <div class="steps">
+          <article class="step reveal"><span class="step-number">01</span><div><h3>Understand</h3><p>We listen, ask better questions and get aligned on the problem worth solving.</p></div><span class="step-arrow">↗</span></article>
+          <article class="step reveal"><span class="step-number">02</span><div><h3>Shape</h3><p>We map the experience, define the priorities and agree on what success looks like.</p></div><span class="step-arrow">↗</span></article>
+          <article class="step reveal"><span class="step-number">03</span><div><h3>Build</h3><p>We design and engineer in focused iterations, sharing progress and learning as we go.</p></div><span class="step-arrow">↗</span></article>
+          <article class="step reveal"><span class="step-number">04</span><div><h3>Improve</h3><p>We launch with care, measure what matters and keep making the product better.</p></div><span class="step-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER</div><h2>Have a good<br>problem? <em>Let's talk.</em></h2><p>Tell us what you're thinking. A rough idea is more than enough to start a useful conversation.</p><div class="contact-note"><span class="note-icon">✳</span><span>Thoughtful conversations.<br><b>No pressure, no pitch deck required.</b></span></div></div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-heading"><span>PROJECT ENQUIRY</span><span class="form-required">* REQUIRED</span></div>
+          <div class="form-row"><label>First name <span>*</span><input type="text" name="firstName" placeholder="Your first name" autocomplete="given-name" required></label><label>Last name<input type="text" name="lastName" placeholder="Your last name" autocomplete="family-name"></label></div>
+          <label>Email address <span>*</span><input type="email" name="email" placeholder="you@company.com" autocomplete="email" required></label>
+          <label>What do you need help with? <span>*</span><select name="service" required><option value="" disabled selected>Select a service</option><option>Website or web application</option><option>Custom software development</option><option>AI and automation</option><option>Product strategy and design</option><option>Something else</option></select></label>
+          <label>Tell us a little about it <span>*</span><textarea name="message" rows="4" placeholder="A few details about your idea, goals or challenge..." required></textarea></label>
+          <button class="button button-primary submit-button" type="submit">Send enquiry <span>↗</span></button>
+          <p class="form-disclaimer">Your details are used only to respond to this enquiry.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main"><a class="brand footer-brand" href="#top"><span class="brand-mark"><span></span><span></span><span></span></span><span>ember<span class="brand-light">code</span></span></a><p>Thoughtful technology.<br>Built for what comes next.</p><a class="back-top" href="#top">BACK TO TOP <span>↑</span></a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> EMBERCODE STUDIO. ALL RIGHTS RESERVED.</span><span>INDEPENDENT BY DESIGN <i>✳</i></span><span><a href="#contact">START A CONVERSATION ↗</a></span></div>
+  </footer>
+</body>
+</html>

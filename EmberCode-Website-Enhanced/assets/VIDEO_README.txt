@@ -1,0 +1,1 @@
+Add your licensed brand showreel video here as embercode-showreel.mp4 (ideally 1920x1080, H.264, 10–30 seconds, compressed for web). Optional poster image: showreel-poster.jpg. Until a video is added, the section displays animated CSS motion graphics. Use footage you own or have permission to publish.
