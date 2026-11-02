@@ -1,0 +1,2 @@
+# EmberCode
+Vibecoded Business website
